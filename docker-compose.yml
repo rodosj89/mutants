@@ -1,0 +1,34 @@
+version: '3'
+services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    deploy:
+      mode: replicated
+      replicas: 6
+    depends_on:
+      - mongodb
+      - redis
+    links:
+      - mongodb
+      - redis
+    networks:
+      - mutants_net
+  mongodb:
+    image: mongo
+    volumes:
+      - /data/db:/data/mutants_challenge
+    ports:
+      - "27017:27017"
+    networks:
+      - mutants_net
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - mutants_net
+
+networks:
+  mutants_net:
