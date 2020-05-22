@@ -3,11 +3,11 @@
 ### Descripcion:
 API Rest de mutantes que valida el ADN de los humanos.
 
-## Alcance:
+### Alcance:
 - Validar si el ADN de un humano es de Mutante.
 - Ver estadistica de los ADN validados.
 
-## RUN Local:
+### Run local:
 1- Clonar el repositorio en su maquina
 ```
 git clone git@github.com:rodosj89/mutants.git
@@ -23,24 +23,23 @@ cd mutants
 docker-compose up -d
 ```
 
-## Swagger
-Para visualizar la documentacion de la API Rest Mutants pueden acceder desde el navegador:
-&nbsp;
- http://localhost:3000/explorer
+### Swagger
+Para visualizar la documentacion de la API Rest Mutants pueden acceder desde el navegador.
 
-## Infrastructura
+http://localhost:3000/explorer
+
+### Infraestructura
 ![Scheme](challengs-mutants.png)
 
-## Dependencia
+### Dependencia
 - Tener Docker Compose instalado. https://docs.docker.com/compose/install/
 
 
-&nbsp;
-## Develop
+### Developer
 [Ariel Ruiz Pardo](https://www.linkedin.com/in/rodolfo-ariel-ruiz-pardo/)
-&nbsp;
-&nbsp;
 
 
+
+&nbsp;
 
 [![LoopBack](https://github.com/strongloop/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
