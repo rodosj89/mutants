@@ -37,7 +37,8 @@ Para visualizar la documentacion de la API Rest Mutants pueden acceder desde el 
 
 &nbsp;
 ## Develop
-[Ariel Ruiz Pardo | https://www.linkedin.com/in/rodolfo-ariel-ruiz-pardo/]
+[Ariel Ruiz Pardo](https://www.linkedin.com/in/rodolfo-ariel-ruiz-pardo/)
+&nbsp;
 &nbsp;
 
 
