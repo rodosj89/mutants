@@ -1,0 +1,10 @@
+{
+  "name": "mutantsDb",
+  "connector": "mongodb",
+  "host": "mongodb",
+  "port": 27017,
+  "user": "",
+  "password": "",
+  "database": "mutants_challenge",
+  "useNewUrlParser": true
+}
