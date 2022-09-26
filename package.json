@@ -59,7 +59,7 @@
     "loopback-connector-kv-redis": "^3.0.3",
     "loopback-connector-mongodb": "^4.2.0",
     "loopback-connector-redis": "^3.0.0",
-    "pm2": "^4.4.0",
+    "pm2": "^5.2.0",
     "redis": "^3.0.2"
   },
   "devDependencies": {
